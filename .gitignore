@@ -10,3 +10,4 @@ Specific/virtualhosts/baikal.apache2
 # Composer stuff
 composer.lock
 vendor
+/nbproject/private/
