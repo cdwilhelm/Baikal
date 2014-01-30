@@ -1,5 +1,6 @@
 set :app_path ,"#{application}"
 set :rails_env, "production"
+set :pub_server_name, 'cal.crm.mtbcoach.com'
 
 role :web, "www.crm.mtbcoach.com"                         # Your HTTP server, Apache/etc
 role :db, "www.crm.mtbcoach.com",:primary=>true 
