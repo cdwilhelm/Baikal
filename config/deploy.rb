@@ -16,8 +16,8 @@ set :scm, :git
 set :deploy_via, 'remote_cache'
 set :branch, 'master'
 set :keep_releases, 5
-set :app_path,"#{application}"
-set :deploy_to, "/var/www/#{app_path}"
+#set :app_path,"#{application}"
+
 
 ssh_options[:forward_agent] = true
 ssh_options[:port] = 4222

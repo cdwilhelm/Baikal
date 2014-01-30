@@ -1,5 +1,7 @@
-set :app_path , "#{application}-staging"
 set :rails_env, "staging"
+set :app_path , "#{application}-#{rails_env}"
+set :deploy_to, "/var/www/#{app_path}"
+
 
 set :pub_server_name, 'calt.crm.mtbcoach.com'
 set :user_group, 'jeffh:jeffh'

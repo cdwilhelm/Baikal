@@ -1,4 +1,5 @@
 set :app_path ,"#{application}"
+set :deploy_to, "/var/www/#{app_path}"
 set :rails_env, "production"
 set :pub_server_name, 'cal.crm.mtbcoach.com'
 set :user_group, 'jeffh:jeffh'
