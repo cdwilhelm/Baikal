@@ -57,7 +57,7 @@ define("PROJECT_DB_MYSQL", TRUE);
 define("PROJECT_DB_MYSQL_HOST", "localhost");
 
 # MySQL > Database name
-define("PROJECT_DB_MYSQL_DBNAME", "baikal");
+define('PROJECT_DB_MYSQL_DBNAME', 'baikal');
 
 # MySQL > Username
 define("PROJECT_DB_MYSQL_USERNAME", "baikal");
