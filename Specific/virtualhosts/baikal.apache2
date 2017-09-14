@@ -1,13 +1,13 @@
 <VirtualHost *:80>
 
-	DocumentRoot /var/www/dav.mydomain.com/html
+	DocumentRoot /home/app/html
 	ServerName dav.mydomain.com
-	
-        RewriteEngine On
-        RewriteRule /.well-known/carddav /card.php [R,L]
-        RewriteRule /.well-known/caldav /cal.php [R,L]
 
-	<Directory "/var/www/dav.mydomain.com/html">
+  RewriteEngine On
+  RewriteRule /.well-known/carddav /card.php [R,L]
+  RewriteRule /.well-known/caldav /cal.php [R,L]
+
+	<Directory "/home/app/html">
 		Options None
 		Options +FollowSymlinks
 		AllowOverride All
